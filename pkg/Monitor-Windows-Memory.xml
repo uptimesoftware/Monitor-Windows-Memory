@@ -54,7 +54,7 @@
 			<default_value></default_value>
 			<validation_rule/><error_message/>
 			<short_description>AvailableBytes</short_description>
-			<long_description></long_description>
+			<long_description>Available Bytes</long_description>
 			<gui_type><integer/></gui_type>
 		</element>
 		<element name='AvailableKBytes' parameter_type='input' data_type='integer' gui_basic='1' range_type='0' units='KB'>
@@ -62,7 +62,7 @@
 			<default_value></default_value>
 			<validation_rule/><error_message/>
 			<short_description>AvailableKBytes</short_description>
-			<long_description></long_description>
+			<long_description>Available KBytes</long_description>
 			<gui_type><integer/></gui_type>
 		</element>
 		<element name='AvailableMBytes' parameter_type='input' data_type='integer' gui_basic='1' range_type='0' units='MB'>
@@ -70,7 +70,7 @@
 			<default_value></default_value>
 			<validation_rule/><error_message/>
 			<short_description>AvailableMBytes</short_description>
-			<long_description></long_description>
+			<long_description>Available Mega Bytes</long_description>
 			<gui_type><integer/></gui_type>
 		</element>
 		<element name='CacheBytes' parameter_type='input' data_type='integer' gui_basic='1' range_type='0' units='bytes'>
@@ -78,7 +78,7 @@
 			<default_value></default_value>
 			<validation_rule/><error_message/>
 			<short_description>CacheBytes</short_description>
-			<long_description></long_description>
+			<long_description>Cache Bytes</long_description>
 			<gui_type><integer/></gui_type>
 		</element>
 		<element name='CacheBytesPeak' parameter_type='input' data_type='integer' gui_basic='1' range_type='0' units='bytes'>
@@ -86,7 +86,7 @@
 			<default_value></default_value>
 			<validation_rule/><error_message/>
 			<short_description>CacheBytesPeak</short_description>
-			<long_description></long_description>
+			<long_description>Cache Bytes Peak</long_description>
 			<gui_type><integer/></gui_type>
 		</element>
 		<element name='CacheFaultsPersec' parameter_type='input' data_type='integer' gui_basic='1' range_type='0' units='#'>
@@ -94,7 +94,7 @@
 			<default_value></default_value>
 			<validation_rule/><error_message/>
 			<short_description>CacheFaultsPersec</short_description>
-			<long_description></long_description>
+			<long_description>CacheFaultsPersec</long_description>
 			<gui_type><integer/></gui_type>
 		</element>
 		<element name='CommitLimit' parameter_type='input' data_type='integer' gui_basic='1' range_type='0' units='bytes'>
@@ -102,14 +102,14 @@
 			<default_value></default_value>
 			<validation_rule/><error_message/>
 			<short_description>CommitLimit</short_description>
-			<long_description></long_description>
+			<long_description>Commit Limit</long_description>
 			<gui_type><integer/></gui_type>
 		</element>
 		<element name='CommittedBytes' parameter_type='output' data_type='integer' gui_basic='' range_type='0' units='bytes'>
 			<control_options>size:8</control_options>
 			<default_value></default_value>
 			<short_description>CommittedBytes</short_description>
-			<long_description></long_description>
+			<long_description>Committed Bytes</long_description>
 			<validation_rule/>
 			<error_message/>
 			<gui_type><integer/></gui_type>
@@ -118,7 +118,7 @@
 			<control_options>size:8</control_options>
 			<default_value></default_value>
 			<short_description>DemandZeroFaultsPersec</short_description>
-			<long_description></long_description>
+			<long_description>Demand Zero Faults Persec</long_description>
 			<validation_rule/>
 			<error_message/>
 			<gui_type><integer/></gui_type>
@@ -127,7 +127,7 @@
 			<control_options>size:8</control_options>
 			<default_value></default_value>
 			<short_description>FreeAndZeroPageListBytes</short_description>
-			<long_description></long_description>
+			<long_description>Free And Zero Page List Bytes</long_description>
 			<validation_rule/>
 			<error_message/>
 			<gui_type><integer/></gui_type>
@@ -136,7 +136,7 @@
 			<control_options>size:8</control_options>
 			<default_value></default_value>
 			<short_description>FreeSystemPageTableEntries</short_description>
-			<long_description></long_description>
+			<long_description>Free System Page Table Entries</long_description>
 			<validation_rule/>
 			<error_message/>
 			<gui_type><integer/></gui_type>
@@ -145,7 +145,7 @@
 			<control_options>size:8</control_options>
 			<default_value></default_value>
 			<short_description>LongTermAverageStandbyCacheLifetimes</short_description>
-			<long_description></long_description>
+			<long_description>Long Term Average Standby Cache Life times</long_description>
 			<validation_rule/>
 			<error_message/>
 			<gui_type><integer/></gui_type>
@@ -154,7 +154,7 @@
 			<control_options>size:8</control_options>
 			<default_value></default_value>
 			<short_description>ModifiedPageListBytes</short_description>
-			<long_description></long_description>
+			<long_description>Modified Page List Bytes</long_description>
 			<validation_rule/>
 			<error_message/>
 			<gui_type><integer/></gui_type>
@@ -163,7 +163,7 @@
 			<control_options>size:8</control_options>
 			<default_value></default_value>
 			<short_description>PageFaultsPersec</short_description>
-			<long_description></long_description>
+			<long_description>Page Faults Persec</long_description>
 			<validation_rule/>
 			<error_message/>
 			<gui_type><integer/></gui_type>
@@ -172,7 +172,7 @@
 			<control_options>size:8</control_options>
 			<default_value></default_value>
 			<short_description>PageReadsPersec</short_description>
-			<long_description></long_description>
+			<long_description>Page Reads Persec</long_description>
 			<validation_rule/>
 			<error_message/>
 			<gui_type><integer/></gui_type>
@@ -181,7 +181,7 @@
 			<control_options>size:8</control_options>
 			<default_value></default_value>
 			<short_description>PagesInputPersec</short_description>
-			<long_description></long_description>
+			<long_description>Pages Input Per sec</long_description>
 			<validation_rule/>
 			<error_message/>
 			<gui_type><integer/></gui_type>
@@ -190,7 +190,7 @@
 			<control_options>size:8</control_options>
 			<default_value></default_value>
 			<short_description>PagesOutputPersec</short_description>
-			<long_description></long_description>
+			<long_description>Pages Output Per sec</long_description>
 			<validation_rule/>
 			<error_message/>
 			<gui_type><integer/></gui_type>
@@ -199,7 +199,7 @@
 			<control_options>size:8</control_options>
 			<default_value></default_value>
 			<short_description>PagesPersec</short_description>
-			<long_description></long_description>
+			<long_description>Pages Per sec</long_description>
 			<validation_rule/>
 			<error_message/>
 			<gui_type><integer/></gui_type>
@@ -208,7 +208,7 @@
 			<control_options>size:8</control_options>
 			<default_value></default_value>
 			<short_description>PageWritesPersec</short_description>
-			<long_description></long_description>
+			<long_description>Page Writes Per sec</long_description>
 			<validation_rule/>
 			<error_message/>
 			<gui_type><integer/></gui_type>
@@ -217,7 +217,7 @@
 			<control_options>size:8</control_options>
 			<default_value></default_value>
 			<short_description>PercentCommittedBytesInUse</short_description>
-			<long_description></long_description>
+			<long_description>Percent Committed Bytes In Use</long_description>
 			<validation_rule/>
 			<error_message/>
 			<gui_type><integer/></gui_type>
@@ -226,7 +226,7 @@
 			<control_options>size:8</control_options>
 			<default_value></default_value>
 			<short_description>PoolNonpagedAllocs</short_description>
-			<long_description></long_description>
+			<long_description>Pool Non pagedAllocs</long_description>
 			<validation_rule/>
 			<error_message/>
 			<gui_type><integer/></gui_type>
@@ -235,7 +235,7 @@
 			<control_options>size:8</control_options>
 			<default_value></default_value>
 			<short_description>PoolNonpagedBytes</short_description>
-			<long_description></long_description>
+			<long_description>Pool Non paged Bytes</long_description>
 			<validation_rule/>
 			<error_message/>
 			<gui_type><integer/></gui_type>
@@ -244,7 +244,7 @@
 			<control_options>size:8</control_options>
 			<default_value></default_value>
 			<short_description>PoolPagedAllocs</short_description>
-			<long_description></long_description>
+			<long_description>Pool Paged Allocs</long_description>
 			<validation_rule/>
 			<error_message/>
 			<gui_type><integer/></gui_type>
@@ -253,7 +253,7 @@
 			<control_options>size:8</control_options>
 			<default_value></default_value>
 			<short_description>PoolPagedBytes</short_description>
-			<long_description></long_description>
+			<long_description>Pool Paged Bytes</long_description>
 			<validation_rule/>
 			<error_message/>
 			<gui_type><integer/></gui_type>
@@ -262,7 +262,7 @@
 			<control_options>size:8</control_options>
 			<default_value></default_value>
 			<short_description>PoolPagedResidentBytes</short_description>
-			<long_description></long_description>
+			<long_description>Pool Paged Resident Bytes</long_description>
 			<validation_rule/>
 			<error_message/>
 			<gui_type><integer/></gui_type>
@@ -271,7 +271,7 @@
 			<control_options>size:8</control_options>
 			<default_value></default_value>
 			<short_description>StandbyCacheCoreBytes</short_description>
-			<long_description></long_description>
+			<long_description>Stand by Cache Core Bytes</long_description>
 			<validation_rule/>
 			<error_message/>
 			<gui_type><integer/></gui_type>
@@ -280,7 +280,7 @@
 			<control_options>size:8</control_options>
 			<default_value></default_value>
 			<short_description>StandbyCacheNormalPriorityBytes</short_description>
-			<long_description></long_description>
+			<long_description>Standby Cache Normal Priority Bytes</long_description>
 			<validation_rule/>
 			<error_message/>
 			<gui_type><integer/></gui_type>
@@ -289,7 +289,7 @@
 			<control_options>size:8</control_options>
 			<default_value></default_value>
 			<short_description>StandbyCacheReserveBytes</short_description>
-			<long_description></long_description>
+			<long_description>Standby Cache Reserve Bytes</long_description>
 			<validation_rule/>
 			<error_message/>
 			<gui_type><integer/></gui_type>
@@ -298,7 +298,7 @@
 			<control_options>size:8</control_options>
 			<default_value></default_value>
 			<short_description>SystemCacheResidentBytes</short_description>
-			<long_description></long_description>
+			<long_description>System Cache Resident Bytes</long_description>
 			<validation_rule/>
 			<error_message/>
 			<gui_type><integer/></gui_type>
@@ -307,7 +307,7 @@
 			<control_options>size:8</control_options>
 			<default_value></default_value>
 			<short_description>SystemCodeResidentBytes</short_description>
-			<long_description></long_description>
+			<long_description>System Code Resident Bytes</long_description>
 			<validation_rule/>
 			<error_message/>
 			<gui_type><integer/></gui_type>
@@ -316,7 +316,7 @@
 			<control_options>size:8</control_options>
 			<default_value></default_value>
 			<short_description>SystemCodeTotalBytes</short_description>
-			<long_description></long_description>
+			<long_description>System Code Total Bytes</long_description>
 			<validation_rule/>
 			<error_message/>
 			<gui_type><integer/></gui_type>
@@ -325,7 +325,7 @@
 			<control_options>size:8</control_options>
 			<default_value></default_value>
 			<short_description>SystemDriverResidentBytes</short_description>
-			<long_description></long_description>
+			<long_description>System Driver Resident Bytes</long_description>
 			<validation_rule/>
 			<error_message/>
 			<gui_type><integer/></gui_type>
@@ -334,7 +334,7 @@
 			<control_options>size:8</control_options>
 			<default_value></default_value>
 			<short_description>SystemDriverTotalBytes</short_description>
-			<long_description></long_description>
+			<long_description>System Driver Total Bytes</long_description>
 			<validation_rule/>
 			<error_message/>
 			<gui_type><integer/></gui_type>
@@ -343,7 +343,7 @@
 			<control_options>size:8</control_options>
 			<default_value></default_value>
 			<short_description>TransitionFaultsPersec</short_description>
-			<long_description></long_description>
+			<long_description>Transition Faults Per sec</long_description>
 			<validation_rule/>
 			<error_message/>
 			<gui_type><integer/></gui_type>
@@ -352,7 +352,7 @@
 			<control_options>size:8</control_options>
 			<default_value></default_value>
 			<short_description>TransitionPagesRePurposedPersec</short_description>
-			<long_description></long_description>
+			<long_description>Transition Pages RePurposed Per sec</long_description>
 			<validation_rule/>
 			<error_message/>
 			<gui_type><integer/></gui_type>
@@ -361,7 +361,7 @@
 			<control_options>size:8</control_options>
 			<default_value></default_value>
 			<short_description>WriteCopiesPersec</short_description>
-			<long_description></long_description>
+			<long_description>Write Copies Per sec</long_description>
 			<validation_rule/>
 			<error_message/>
 			<gui_type><integer/></gui_type>
